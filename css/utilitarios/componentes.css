@@ -1,0 +1,27 @@
+.botao {
+  padding: 1rem 2rem;
+  background: linear-gradient(
+    #ffbf00,
+    #f2a50c 100%
+  ); /* Curiosidade sobre linear-gradi.. Ele sempre comeca 180graus de cima pra baixo  e de 0% a 100% da cor*/
+  display: inline-block;
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 0.125rem rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: var(--cor-p5);
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+@media (max-width: 600px) {
+  .botao {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
