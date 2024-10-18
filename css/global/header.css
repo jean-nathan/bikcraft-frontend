@@ -6,12 +6,9 @@
   display: flex;
   gap: 1.125rem;
   flex-wrap: wrap;
-  padding: 1.25rem;
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   align-items: center;
-  box-sizing: border-box; /* Colocado para evitar que some o valor de padding com max-width */
   justify-content: space-between;
 }
 
@@ -24,9 +21,6 @@
 .header-menu a {
   padding: 1rem 0;
   position: relative;
-  font-size: 1.125rem;
-  font-family: "Poppins";
-  font-weight: 400;
   display: inline-block; /* aplicado inline block pra quando o link quebrar, ele nao ficar encima de outros links. */
 }
 
