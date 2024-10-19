@@ -9,7 +9,8 @@ h1,
 h2,
 h3,
 h4 ul,
-p {
+p,
+blockquote {
   margin: 0;
 }
 
@@ -29,6 +30,7 @@ img {
   display: block;
 }
 
-img[src$=".jpg"] { /* Aplica so para img jpg ao inves de afetar png tambem */
+img[src$=".jpg"] {
+  /* Aplica so para img jpg ao inves de afetar png tambem */
   border-radius: 4px;
 }

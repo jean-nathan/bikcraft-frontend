@@ -1,5 +1,4 @@
 .parceiros {
-  border: 1px solid black;
   padding-top: 60px;
   padding-bottom: 120px;
 }
@@ -41,6 +40,10 @@
     padding-bottom: 60px;
   }
 
+  .parceiros li {
+    padding: 20px;
+  }
+
   .parceiros h2 {
     padding-bottom: 20px;
   }
@@ -53,7 +56,8 @@
     border-top: 2px solid var(--cor-2);
   }
 
-  .parceiros li:nth-child(odd) { /* remover para as linhas impares, se fosse pares seriam even */
+  .parceiros li:nth-child(odd) {
+    /* remover para as linhas impares, se fosse pares seriam even */
     border-left: none;
   }
 }
